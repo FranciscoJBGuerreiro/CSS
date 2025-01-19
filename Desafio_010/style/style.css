@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto; 
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: block;
+    margin: auto;
+    background-color: rgba(127, 255, 133, 0.492);
+}
+.font_android{
+    font-family: 'idroid';
+    font-size: normal;
+    margin-left: 25px;
+}
+header{
+    background-color: rgb(11,124,51);
+    height: 150px;
+}
+header h1, header h4{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    width: 80%;
+}
+nav ul li{
+    display: inline;
+    text-align: left;
+    margin: 0em .4em;
+    padding: 5px 3px;
+    background-color: rgb(11,124,51);
+}
+nav ul li a{
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+nav ul li a:hover{
+    background-color: rgb(104, 171, 125);
+    color: rgb(12, 60, 3);
+}
+main{
+    width: 70%;
+    margin-top: 2px;
+    background-color: whitesmoke;
+    
+}
+p{
+    text-align: justify;
+    text-indent: 15px;
+    margin: 10px 15px;
+}
+img{
+    padding: 10px 15px 0px 15px;
+}
+h2, h1{
+    padding-top: 10px;
+}
+#bugdroid, iframe{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+#video{
+    width: 95%;
+    background-color: rgb(11, 124, 51);
+    
+}
+
+section{
+    display: inline-block;
+    margin: 15px;
+    border-radius: 5px;
+    background: rgba(127, 255, 133, 0.492);
+    border-radius: 10px;
+    
+}
+article{
+    display: inline;
+}
+section div h3{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(11,124,51);
+    align-content: center;
+    padding-left: 25px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+
+}
+
+section article{
+    display: flex;
+    flex: 1;
+    margin: 0 auto;
+}
+.lista_1{
+    display: inline-block;
+    width: 40%;
+    border: 1px solid black;
+    padding-left: 5px;
+    margin-left: 15px;
+}
+.lista_2{
+    display: inline-block;
+    width: 40%;
+    border: 1px solid black;
+    padding-left: 5px;
+    
+}
+li{
+    list-style-type: none;
+}
+footer{
+    text-align: center;
+    background-color: rgb(11,124,51);
+    color:white;
+}

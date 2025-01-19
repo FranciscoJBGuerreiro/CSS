@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:hover:before{
+            content: "»";
+        }
+        a:hover::after{
+            content: "«";
+        }
+        a:active{
+            color: yellow;
+        }
+        a::after{
+            content: " [link]";
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+        /* a:before{
+            content: url(imagens/auque-7-dias-tarde.gif);
+        } */
+        p::selection{
+            color: yellow;
+            background-color: black;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Personalizar Links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositorio GitHub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo" target="_blank">Canal Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank">Site do Curso em Video</a></li>
+    </ul>
+    <h1>Teste</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt ullam molestias eveniet unde. Voluptate labore eveniet deleniti vero consectetur, odio eos corrupti ex neque praesentium quo asperiores amet adipisci? Soluta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reiciendis in libero vero odit porro aspernatur est quod assumenda illum. Nostrum accusamus dolores quo sit soluta ipsam. Dolores, asperiores perspiciatis.</p>
+</body>
+</html>

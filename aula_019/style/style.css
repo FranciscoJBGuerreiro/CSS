@@ -1,0 +1,45 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 800px;
+    height: 100%;
+    background-color: rgba(214, 247, 214, 70%);
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+h1{
+    color: rgb(50, 109,71);
+    padding: 10px;
+}
+h2{
+    color: rgba(80,109,71, 70%);
+    padding: 10px;
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+#principal{
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px 0px;
+    /* text-transform: uppercase; */
+    background-color: rgb(50, 109,71);
+    color: rgba(214, 247, 214, 70%);
+}
+.basico{
+    color: rgba(80,109,71, 70%); 
+}
+.intermediario{
+    color: rgba(154, 52, 52, 70%);
+}
+.avancado{
+    color: rgba(62, 62, 136, 70%);
+}
+.testa_pintura{
+    background: rgba(255, 255, 0, 0.381);
+}

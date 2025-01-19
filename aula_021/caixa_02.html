@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags HTML5</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgreen;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        #bola{
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+            border: 10px solid black;
+            border-radius: 50%;
+            border-top: none;
+             border-bottom: none;
+            position: absolute;
+            top: 10px;
+            right: 30px;
+            transition: transform 2s;
+        }
+        #bola:hover{
+             transform: rotate(360deg);
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        nav{
+            background-color: rgba(44, 80, 3, 0.764);
+            padding: 8px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.4);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 0 20px;
+            padding: 7px 10px;
+            border-radius: 5px;
+        }
+        nav > a:hover{
+            background-color: rgba(57, 87, 23, 0.5);
+            color: whitesmoke; 
+        }
+
+        main{
+           background-color: rgba(223, 255, 182, 0.7);
+        }
+        article{
+            background-color: rgba(223, 255, 182, 0.7);
+        }
+        article > aside{
+            background-color: rgba(54, 152, 24, 0.386);
+        }
+        footer{
+            background-color: rgba(17, 37, 1, 0.501);
+            color: white;
+            padding: 4px;
+            margin: 0px;
+            text-align: center;
+        }
+        footer > p{
+            margin: 0;
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+        <div id="bola"></div>
+    </header>   
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre Marte</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque est illum maxime odit rem perspiciatis optio eius deleniti, voluptate nisi. Amet ipsum recusandae voluptas quod nostrum dolore omnis, perferendis totam.</p>
+                <aside>
+                    <p>artigo escrito por alguém</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo curso em video</p>
+    </footer>
+    
+</body>
+</html>

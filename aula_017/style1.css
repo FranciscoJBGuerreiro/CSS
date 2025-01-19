@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+body{
+    margin: 0 auto;
+    background-image: radial-gradient(rgb(201, 242, 201), rgb(90, 150, 90)); 
+    width: 800px; max-width: 1050px;
+    background-attachment: fixed;
+    height: 100%;
+   
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    background-color: green;
+    color:rgb(35, 56, 35);
+    border-radius: 10px;
+
+}
+h2{
+    padding: 20px;
+    color: rgb(35, 56, 35);
+}
+p{
+    text-align: justify;
+}
