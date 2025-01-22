@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 500px;
+            height: 500px;
+            background-color: lightcoral;
+            position:relative;
+        }
+        .interno{
+            width: 100px;
+            height: 100px;
+            background-color: antiquewhite;
+ 
+            border-radius: 50%;
+            animation: anime 10s ease-in-out infinite;
+        }
+        @keyframes anime {
+            0%{
+                transform:translate(0, 0);
+                
+                background-color: aqua;
+            }
+            25%{
+                transform: translate(400px, 0);
+                background-color: blue;
+            }
+            50%{
+                transform: translate(400px, 400px);  
+                background-color: green;
+            }
+            75%{
+                transform: translate(0, 400px);
+                background-color: orangered; 
+            }
+            100%{
+                transform: translate(0,0);
+                /* transform: translateY( 0px); */
+                background-color: aqua;
+            }
+        }
+        .interno2{
+            width: 100px;
+            height: 100px;
+            background-color: antiquewhite;
+ 
+            border-radius: 50%;
+            animation: anime2 8s ease-in-out infinite;
+        }
+        @keyframes anime2 {
+            0%{
+                transform:translate(400px, 300px);
+                
+                background-color: aqua;
+            }
+            25%{
+                transform: translate(0px, 300px);
+                background-color: blue;
+            }
+            50%{
+                transform: translate(0px, -100px);  
+                background-color: green;
+            }
+            75%{
+                transform: translate(400px, -100px);
+                background-color: orangered; 
+            }
+            100%{
+                transform: translate(400px,300px);
+                /* transform: translateY( 0px); */
+                background-color: aqua;
+            }
+        }
+        .interno3{
+            width: 100px;
+            height: 100px;
+            background-color: antiquewhite;
+            transition-duration: 2s;
+            border-radius: 50%;
+            animation: anime3 12s ease-in-out infinite;
+        }
+        @keyframes anime3 {
+            0%{
+                transform:translate(400px, 200px);
+                background-color: rgba(255, 0, 191, 0.596);
+            }
+            25%{
+                transform: translate(0px, 200px);
+                background-color: rgb(72, 255, 0);
+            }
+            50%{
+                transform: translate(0px, -200px);  
+                background-color: green;
+            }
+            75%{
+                transform: translate(400px, -200px);
+                background-color: rgba(255, 68, 0, 0.664); 
+            }
+            100%{
+                transform: translate(400px,200px);
+                /* transform: translateY( 0px); */
+                background-color: rgba(255, 0, 191, 0.596);
+            }
+        }
+        .interno4{
+            width: 100px;
+            height: 100px;
+            background-color: antiquewhite;
+            transition-duration: 2s;
+            border-radius: 50%;
+            animation: anime4 9.5s linear alternate infinite;
+        }
+        @keyframes anime4 {
+            0%{
+                transform:translate(400px, 100px);
+                background-color: rgba(255, 0, 191, 0.596);
+            }
+            100%{
+                transform: translate(0px, -300px);  
+                background-color: green;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="interno"></div>
+        <div class="interno2"></div>
+        <div class="interno3"></div>
+        <div class="interno4"></div>
+    </div>
+</body>
+</html>
