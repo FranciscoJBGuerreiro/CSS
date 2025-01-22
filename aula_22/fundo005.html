@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento de fundos</title>
+    <style>
+        body{
+            height: 92vh;
+
+            background-image: url(img/wallpaper003.jpg);
+            background-position: center center;
+            background-size: 100vw 100vh;
+            transition: 5s;
+            animation: imgFundo 200s infinite;
+        }
+        @keyframes imgFundo {
+            0%{
+                background-image: url(img/wallpaper003.jpg);
+                background-position: center center;
+                background-clip: cover;
+            }
+            20%{
+                background-image: url(img/wallpaper001.jpg);
+                background-position: center center;
+                background-repeat: repeat;
+
+            }
+            40%{
+                background-image: url(img/pattern002.png);
+                background-position: center center;
+            }
+            60%{
+                background-image: url(img/wallpaper004.jpg);
+                background-position: center center;
+            }
+            80%{
+                background-image: url(img/pattern001.png);
+                background-position: center center;
+            }
+            100%{
+                background-image: url(img/wallpaper003.jpg);
+                background-position: center center;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>

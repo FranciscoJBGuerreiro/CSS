@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento de fundos</title>
+    <style>
+        body{
+            height: 95vh;
+            background-image: url(img/gafanhotos.jpg);
+            background-size: 100px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            border: 1px dashed green;
+            animation: mover 5s alternate infinite;
+        }
+        @keyframes mover{
+            0%{
+                background-position: center center;
+            }
+            20%{
+                background-position: left center;
+            }
+            40%{
+                background-position: top left;
+            }
+            60%{
+                background-position: right top;
+            }
+            80%{
+                background-position: right bottom;
+            }
+            100%{
+                background-position: left bottom;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
